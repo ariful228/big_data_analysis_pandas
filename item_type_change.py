@@ -1,7 +1,7 @@
        
 import pandas as pd
 # Load the Excel file into a DataFrame
-file_path = r'D:\PYDATAANALYSIS\analysis\Dataanalysis_merged_with_tc_rev_and_sap_material.xlsx'
+file_path = r'D:\PYDATAANALYSIS\analysis\Item_id_&_revision_material_ready_now_duplicate_renaming.xlsx'
 df = pd.read_excel(file_path)
 
 # Define a function to update 'Item Type' based on conditions

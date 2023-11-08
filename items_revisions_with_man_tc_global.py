@@ -37,8 +37,8 @@ def process_item_revisions(input_file_path, output_file_path):
     print("Item revision processing Done!!")
 
 # Call the function to process item revisions
-input_file_path = r'D:\PYDATAANALYSIS\analysis\Dataanalysis_merged_with_tc_rev_and_sap_material.xlsx'
-output_file_path = r'D:\PYDATAANALYSIS\analysis\Bulkloader_analysis_ready_for_xml_changer_&_IPS.xlsx'
+input_file_path = r'D:\PYDATAANALYSIS\analysis\Item_id_&_revision_material_ready_now_duplicate_renaming.xlsx'
+output_file_path = r'D:\PYDATAANALYSIS\analysis\Item_id_&_revision_material_ready_now_duplicate_renaming.xlsx'
 process_item_revisions(input_file_path, output_file_path)
 
 # You can add more code here for further processing if needed

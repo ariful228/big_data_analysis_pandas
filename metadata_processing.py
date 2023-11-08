@@ -1,6 +1,6 @@
 import pandas as pd
 # Load the Excel file into a DataFrame
-input_path = r'analysis/Dataanalysis_merged_with_tc_rev_and_sap_material.xlsx'
+input_path = r'D:\PYDATAANALYSIS\analysis\Item_id_&_revision_material_ready_now_duplicate_renaming.xlsx'
 output_path = r'D:\PYDATAANALYSIS\analysis\Item_id_&_revision_material_ready_now_duplicate_renaming.xlsx'
 df = pd.read_excel(input_path)
 # Define a function to collect values following the specified order

@@ -1,7 +1,7 @@
 import pandas as pd
 
 def extract_default(input_path, output_excel_path):
-    print("Start Working!")
+    print("Start working with combining sap_rename_partNumber!")
     try:
         # Read the Excel file into a DataFrame
         df = pd.read_excel(input_path)
@@ -53,6 +53,6 @@ def extract_default(input_path, output_excel_path):
     print("Revision and SAP Material merged Done!")
 
 # Usage example:
-input_path = r'D:\PYDATAANALYSIS\analysis\Dataanalysis_merged_with_tc_rev_and_sap_material.xlsx'
-output_path = r'D:\PYDATAANALYSIS\analysis\Modified_Data.xlsx'
+input_path = r'D:\PYDATAANALYSIS\analysis\Item_id_&_revision_material_ready_now_duplicate_renaming.xlsx'
+output_path = r'D:\PYDATAANALYSIS\analysis\Item_id_&_revision_material_ready_now_duplicate_renaming.xlsx'
 extract_default(input_path, output_path)
